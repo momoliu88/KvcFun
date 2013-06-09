@@ -21,12 +21,12 @@
 		918F05841764468800631DE7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		918F05851764468800631DE7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		918F05861764468800631DE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		918F05891764468800631DE7 /* KvcFun-Info.plist */ = {isa = PBXFileReference; path = "KvcFun-Info.plist"; sourceTree = "<group>"; };
+		918F05891764468800631DE7 /* KvcFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KvcFun-Info.plist"; sourceTree = "<group>"; };
 		918F058B1764468800631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		918F058D1764468800631DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		918F058F1764468800631DE7 /* KvcFun-Prefix.pch */ = {isa = PBXFileReference; path = "KvcFun-Prefix.pch"; sourceTree = "<group>"; };
+		918F058F1764468800631DE7 /* KvcFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KvcFun-Prefix.pch"; sourceTree = "<group>"; };
 		918F05911764468800631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		918F05931764468800631DE7 /* KvcFunAppDelegate.h */ = {isa = PBXFileReference; path = KvcFunAppDelegate.h; sourceTree = "<group>"; };
+		918F05931764468800631DE7 /* KvcFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KvcFunAppDelegate.h; sourceTree = "<group>"; };
 		918F05941764468800631DE7 /* KvcFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KvcFunAppDelegate.m; sourceTree = "<group>"; };
 		918F05971764468800631DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

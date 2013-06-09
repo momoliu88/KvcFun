@@ -10,7 +10,10 @@
 
 @interface KvcFunAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *_window;
+    NSString * name;
+    int progress;
 }
+- (IBAction)add:(id)sender;
 
 @property (strong) IBOutlet NSWindow *window;
 

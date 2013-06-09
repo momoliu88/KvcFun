@@ -12,9 +12,19 @@
 
 @synthesize window = _window;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (id)init{
+    self = [super init];
+    if(self){
+        [self setValue:@"value" forKey:@"name"];
+        [self setValue:[NSNumber numberWithInt:90] forKey:@"progress"];
+        NSString * val = [self valueForKey:@"name"];
+        NSLog(@"%@",val);
+    }
+    return self;
 }
-
+- (IBAction)add:(id)sender {
+    [self willChangeValueForKey:@"progress"];
+    progress ++;
+    [self didChangeValueForKey:@"progress"];
+}
 @end
